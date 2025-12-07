@@ -292,7 +292,7 @@
 
           <a href="mailto:your@email.com"
             class="inline-block px-8 py-4 bg-cyan-500 text-slate-900 font-bold rounded-lg hover:bg-cyan-400 transition shadow-lg">
-            contact@djmekki.com
+            mekkidjallal@gmail.com
           </a>
         </section>
 
