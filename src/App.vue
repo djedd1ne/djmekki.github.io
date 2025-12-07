@@ -231,7 +231,7 @@
 
             <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
               <h3 class="text-lg font-bold text-cyan-400 mb-2">Tools</h3>
-              <p class="text-slate-400">Git, Docker,Docker Compose, Kubernetes Figma, Miro</p>
+              <p class="text-slate-400">Git, Docker,Docker Compose, Kubernetes, Figma, Miro</p>
             </div>
 
             <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
