@@ -106,102 +106,114 @@
         </div>
       </section>
 
-        <!-- PROJECTS -->
-        <section id="projects" class="py-28 bg-slate-800 text-center px-6">
-          <h2 class="text-4xl font-black text-white mb-8">Projects</h2>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <!-- PROJECTS -->
+      <section id="projects" class="py-28 bg-slate-800 text-center px-6">
+        <h2 class="text-4xl font-black text-white mb-8">Projects</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
 
-            <!-- ft_transcendence -->
-             <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
-              <h3 class="text-xl font-bold text-cyan-400 mb-2">ft_transcendence</h3>
-              <p class="text-slate-400">A full-stack single page application featuring real-time 3D multiplayer Pong, live chat, friend system, and 42Auth integration. Built with React, Django, Three.js, and WebSockets.</p>
-              <div class="flex flex-wrap gap-2 mt-4">
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">React</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Django</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Three.js</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">WebSockets</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Docker</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
-              </div>
-              <a href="https://github.com/s-sergiu/ft_transcendence" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
-                View on GitHub →
-              </a>
+          <!-- ft_transcendence -->
+          <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+            <h3 class="text-xl font-bold text-cyan-400 mb-2">ft_transcendence</h3>
+            <p class="text-slate-400">A full-stack single page application featuring real-time 3D multiplayer Pong, live chat, friend system, and 42Auth integration.</p>
+            <div class="flex flex-wrap gap-2 mt-4">
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">React</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Django</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Three.js</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">WebSockets</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Docker</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
             </div>
-
-            <!-- Coding_Challenge -->
-            <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
-            <h3 class="text-xl font-bold text-cyan-400 mb-2">Telegram Notification Server</h3>
-              <p class="text-slate-400">A Go REST API that sends real-time notifications to Telegram groups via Bot API.</p>
-              <div class="flex flex-wrap gap-2 mt-4">
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Go</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">REST API</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Telegram Bot</span>
-              </div>
-              <a href="https://github.com/djedd1ne/Coding_Challenge" target="_blank" class="text-cyan-400 font-semibold hover:underline">
-                View on GitHub →
-              </a>
-            </div>
-
-            <!-- Weather_Dashboard -->
-            <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
-              <h3 class="text-xl font-bold text-cyan-400 mb-2">Weather Dashboard</h3>
-              <p class="text-slate-400">A modern weather dashboard built with Flask. Displays real-time temperature, humidity, wind speed, and weather conditions for any city worldwide.</p>
-              <div class="flex flex-wrap gap-2 mt-4">
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Python</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Flask</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">OpenWeather API</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Responsive</span>
-              </div>
-              <a href="https://github.com/djedd1ne/Weather_Dashboard" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
-                View on GitHub →
-              </a>
-            </div>
-
-            <!-- Project: so_long -->
-            <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
-              <h3 class="text-xl font-bold text-cyan-400 mb-2">so_long</h3>
-              <p class="text-slate-400 mb-4">A 2D tile-based game built in C using MiniLibX. Navigate the map, collect items, and reach the exit. Features sprite rendering and keyboard controls.</p>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">C</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">MiniLibX</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Makefile</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
-              </div>
-              <a href="https://github.com/djedd1ne/so_long" target="_blank" class="text-cyan-400 font-semibold hover:underline">
-                View on GitHub →
-              </a>
-            </div>
-
-            <!-- Cub3D-->
-            <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
-              <h3 class="text-xl font-bold text-cyan-400 mb-2">cub3D</h3>
-              <p class="text-slate-400">A 3D raycasting game engine inspired by Wolfenstein 3D. Navigate through a maze in first-person view using real-time raycasting rendering.</p>
-              <div class="flex flex-wrap gap-2 mt-4">
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">C</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">MiniLibX</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Raycasting</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
-              </div>
-              <a href="https://github.com/s-sergiu/cub3D" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
-                View on GitHub →
-              </a>
-            </div>
-
-            <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
-              <h3 class="text-xl font-bold text-cyan-400 mb-2">Minishell</h3>
-              <p class="text-slate-400">A simplified UNIX shell written in C. Supports pipes, redirections, environment variables, signal handling, and built-in commands like cd, echo, and export.</p>
-              <div class="flex flex-wrap gap-2 mt-4">
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">C</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">UNIX</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Shell</span>
-                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
-              </div>
-              <a href="https://github.com/djedd1ne/minishell" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
-                View on GitHub →
-              </a>
-            </div>
+            <a href="https://github.com/s-sergiu/ft_transcendence" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
+              View on GitHub →
+            </a>
           </div>
-        </section>
+
+          <!-- Coding_Challenge -->
+          <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+            <h3 class="text-xl font-bold text-cyan-400 mb-2">Telegram Notification Server</h3>
+            <p class="text-slate-400">A Go REST API that sends real-time notifications to Telegram groups via Bot API.</p>
+            <div class="flex flex-wrap gap-2 mt-4">
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Go</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">REST API</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Telegram Bot</span>
+            </div>
+            <a href="https://github.com/djedd1ne/Coding_Challenge" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
+              View on GitHub →
+            </a>
+          </div>
+
+          <!-- Weather_Dashboard -->
+          <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+            <h3 class="text-xl font-bold text-cyan-400 mb-2">Weather Dashboard</h3>
+            <p class="text-slate-400">A modern weather dashboard built with Flask. Displays real-time temperature, humidity, wind speed, and weather conditions.</p>
+            <div class="flex flex-wrap gap-2 mt-4">
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Python</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Flask</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">OpenWeather API</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Responsive</span>
+            </div>
+            <a href="https://github.com/djedd1ne/Weather_Dashboard" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
+              View on GitHub →
+            </a>
+          </div>
+
+          <!-- so_long -->
+          <div class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+            <h3 class="text-xl font-bold text-cyan-400 mb-2">so_long</h3>
+            <p class="text-slate-400">A 2D tile-based game built in C using MiniLibX. Navigate the map, collect items, and reach the exit.</p>
+            <div class="flex flex-wrap gap-2 mt-4">
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">C</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">MiniLibX</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Makefile</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
+            </div>
+            <a href="https://github.com/djedd1ne/so_long" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
+              View on GitHub →
+            </a>
+          </div>
+
+          <!-- HIDDEN PROJECTS (show when expanded) -->
+
+          <!-- cub3D -->
+          <div v-if="showAllProjects" class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+            <h3 class="text-xl font-bold text-cyan-400 mb-2">cub3D</h3>
+            <p class="text-slate-400">A 3D raycasting game engine inspired by Wolfenstein 3D. Navigate through a maze in first-person view.</p>
+            <div class="flex flex-wrap gap-2 mt-4">
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">C</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">MiniLibX</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Raycasting</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
+            </div>
+            <a href="https://github.com/s-sergiu/cub3D" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
+              View on GitHub →
+            </a>
+          </div>
+
+          <!-- Minishell -->
+          <div v-if="showAllProjects" class="p-6 bg-slate-900 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+            <h3 class="text-xl font-bold text-cyan-400 mb-2">Minishell</h3>
+            <p class="text-slate-400">A simplified UNIX shell written in C. Supports pipes, redirections, environment variables, and built-in commands.</p>
+            <div class="flex flex-wrap gap-2 mt-4">
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">C</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">UNIX</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Shell</span>
+              <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">42 Project</span>
+            </div>
+            <a href="https://github.com/djedd1ne/minishell" target="_blank" class="block mt-4 text-cyan-400 font-semibold hover:underline">
+              View on GitHub →
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Show More / Show Less Button -->
+        <button 
+          @click="showAllProjects = !showAllProjects" 
+          class="mt-10 px-8 py-3 bg-cyan-500 text-slate-900 font-bold rounded-lg hover:bg-cyan-400 transition shadow-lg">
+          {{ showAllProjects ? 'Show Less' : 'Show More' }}
+        </button>
+
+      </section>
 
         <!-- SKILLS -->
         <section id="skills" class="py-28 text-center px-6">
@@ -301,6 +313,7 @@ import { ref, onMounted } from "vue"
 const name = "Djallal Eddine Mekki"
 const showIntro = ref(true)
 const menuOpen = ref(false)
+const showAllProjects = ref(false)
 
 onMounted(() => {
   setTimeout(() => { showIntro.value = false }, 1700)
