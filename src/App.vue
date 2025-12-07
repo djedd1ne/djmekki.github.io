@@ -208,63 +208,65 @@
           <h2 class="text-4xl font-black text-white mb-10">Skills</h2>
 
           <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+
             <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
-              <h3 class="text-lg font-bold text-cyan-400 mb-2">Backend</h3>
-              <p class="text-slate-400">Node.js, Python, Go</p>
+              <h3 class="text-lg font-bold text-cyan-400 mb-2">Programming</h3>
+              <p class="text-slate-400">C/C++, Python, Go, MATLAB</p>
             </div>
 
             <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
-              <h3 class="text-lg font-bold text-cyan-400 mb-2">Cloud</h3>
-              <p class="text-slate-400">AWS, GCP, Docker, K8s</p>
+              <h3 class="text-lg font-bold text-cyan-400 mb-2">Web Dev</h3>
+              <p class="text-slate-400">HTML, CSS, Bootstrap, Tailwind, JavaScript, Vue.js</p>
             </div>
 
             <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
               <h3 class="text-lg font-bold text-cyan-400 mb-2">Databases</h3>
-              <p class="text-slate-400">PostgreSQL, MongoDB, Redis</p>
+              <p class="text-slate-400">PostgreSQL, MariaDB</p>
             </div>
 
             <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
-              <h3 class="text-lg font-bold text-cyan-400 mb-2">DevOps</h3>
-              <p class="text-slate-400">CI/CD, Terraform, Linux</p>
+              <h3 class="text-lg font-bold text-cyan-400 mb-2">Cloud & DevOps</h3>
+              <p class="text-slate-400">Docker, Kubernetes, Helm, Github Actions, Azure AKS, Azure Functions, AWS Lambda</p>
             </div>
+
+            <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
+              <h3 class="text-lg font-bold text-cyan-400 mb-2">Tools</h3>
+              <p class="text-slate-400">Git, Docker,Docker Compose, Kubernetes Figma, Miro</p>
+            </div>
+
+            <div class="p-6 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition">
+              <h3 class="text-lg font-bold text-cyan-400 mb-2">Languages</h3>
+              <p class="text-slate-400">Arabic (Native), English (C1), French (C1), German (A2)</p>
+            </div>
+
           </div>
         </section>
 
-        <!-- EXPERIENCE -->
+        <!-- Experiences -->
+
         <section id="experience" class="py-28 bg-slate-800 text-center px-6">
           <h2 class="text-4xl font-black text-white mb-10">Experience</h2>
 
           <div class="max-w-3xl mx-auto text-left space-y-8">
+
             <div class="border-l-4 border-cyan-500 pl-6">
-              <h3 class="text-xl font-bold text-white">Software Engineer</h3>
-              <p class="text-cyan-400 text-sm uppercase tracking-wide mb-2">Company Name · 2022 – Present</p>
-              <p class="text-slate-400">Built scalable backend services and automated cloud infrastructure.</p>
+              <h3 class="text-xl font-bold text-white">AI Trainer</h3>
+              <p class="text-cyan-400 text-sm uppercase tracking-wide mb-2">Outlier AI · Jun. 2024 – Jun. 2025 · Remote</p>
+              <p class="text-slate-400">Crafted and evaluated computer science questions to train and refine AI models using RLHF. Provided human feedback for tasks in French and English. Evaluated and ranked AI-generated code to improve algorithmic performance.</p>
             </div>
 
             <div class="border-l-4 border-cyan-500 pl-6">
-              <h3 class="text-xl font-bold text-white">Junior Developer</h3>
-              <p class="text-cyan-400 text-sm uppercase tracking-wide mb-2">Company Name · 2020 – 2022</p>
-              <p class="text-slate-400">Developed APIs and maintained database systems.</p>
-            </div>
-          </div>
-        </section>
-
-        <!-- ENTREPRENEURSHIP -->
-        <section id="entrepreneurship" class="py-28 text-center px-6">
-          <h2 class="text-4xl font-black text-white mb-10">Entrepreneurship</h2>
-
-          <div class="max-w-3xl mx-auto text-left space-y-8">
-            <div class="border-l-4 border-cyan-500 pl-6">
-              <h3 class="text-xl font-bold text-white">Venture One</h3>
-              <p class="text-cyan-400 text-sm uppercase tracking-wide mb-2">Founder · 2023 – Present</p>
-              <p class="text-slate-400">Building a SaaS platform that automates cloud deployments for startups.</p>
+              <h3 class="text-xl font-bold text-white">ESL Mentor</h3>
+              <p class="text-cyan-400 text-sm uppercase tracking-wide mb-2">Angloville · Jul. 2021 – Sep. 2021 · Poland</p>
+              <p class="text-slate-400">Mentored children aged 12–17 to enhance their English speaking skills. Led a team to achieve a final program presentation.</p>
             </div>
 
             <div class="border-l-4 border-cyan-500 pl-6">
-              <h3 class="text-xl font-bold text-white">Venture Two</h3>
-              <p class="text-cyan-400 text-sm uppercase tracking-wide mb-2">Co-Founder · 2021 – 2023</p>
-              <p class="text-slate-400">Launched an e-commerce platform serving local businesses.</p>
+              <h3 class="text-xl font-bold text-white">Production Intern</h3>
+              <p class="text-cyan-400 text-sm uppercase tracking-wide mb-2">Sonatrach · Dec. 2016 – Jan. 2017 · Algeria</p>
+              <p class="text-slate-400">Reviewed field operations data and reports. Assisted teams in Production Department at Gassi Touil oil field, one of the leading oil and gas facilities.</p>
             </div>
+
           </div>
         </section>
 
@@ -278,7 +280,7 @@
 
           <a href="mailto:your@email.com"
             class="inline-block px-8 py-4 bg-cyan-500 text-slate-900 font-bold rounded-lg hover:bg-cyan-400 transition shadow-lg">
-            your@email.com
+            contact@djmekki.com
           </a>
         </section>
 
