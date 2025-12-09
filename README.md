@@ -1,29 +1,24 @@
-# portfolio
+# djmekki.com
 
-This template should help get you started developing with Vue 3 in Vite.
+My personal portfolio website — built from scratch with Vue.js and Tailwind CSS.
 
-## Recommended IDE Setup
+![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat&logo=vue.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat&logo=tailwind-css)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## ✦ About
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+This isn't a template. It's my corner of the internet.
 
-## Project Setup
+A single-page portfolio showcasing who I am, what I've built, and where I'm heading, as a software engineer, an entrepreneur, and someone who never stops learning.
 
-```sh
-npm install
-```
+**Live:** [djmekki.com](https://djmekki.com)
 
-### Compile and Hot-Reload for Development
+---
+## ✦ Features
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- **Intro animation**   name reveal on load
+- **Responsive navbar**   desktop menu + mobile hamburger
+- **Smooth scroll**  anchor-based navigation
+- **Project showcase**  with expand/collapse
