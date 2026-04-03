@@ -281,6 +281,72 @@
 
           </div>
         </section>
+        
+        <!-- ENTREPRENEURSHIP -->
+        <section id="entrepreneurship" class="py-28 text-center px-6">
+          <h2 class="text-4xl font-black text-white mb-4">Entrepreneurship</h2>
+          <p class="text-slate-400 text-lg mb-12 max-w-2xl mx-auto">
+            Building products that solve real problems, from recruitment to travel tech.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+            <!-- Talentifier -->
+            <div class="p-8 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="text-3xl">🎮</span>
+                <h3 class="text-2xl font-bold text-cyan-400">Talentifier</h3>
+              </div>
+              <p class="text-slate-400 leading-relaxed mb-4">
+                A gamified recruitment platform that transforms the hiring process into an
+                engaging experience. Candidates showcase their skills through interactive
+                challenges instead of traditional resumes.
+              </p>
+              <p class="text-slate-500 text-sm mb-4">
+                Developed during the <span class="text-cyan-400 font-semibold">Corporate Campus Challenge (CCC)</span>
+                program at <span class="text-cyan-400 font-semibold">Campus Founders</span> in collaboration with
+                <span class="text-cyan-400 font-semibold">Würth Elektronik ICS</span>.
+              </p>
+              <div class="flex flex-wrap gap-2 mt-4">
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Gamification</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Recruitment</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">HR Tech</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Campus Founders</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Würth Elektronik ICS</span>
+              </div>
+            </div>
+
+            <!-- FYNX AI -->
+            <div class="p-8 bg-slate-800 rounded-lg border border-slate-700 hover:border-cyan-500 transition shadow-lg text-left">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="text-3xl">🛡️</span>
+                <h3 class="text-2xl font-bold text-cyan-400">FYNX AI</h3>
+              </div>
+              <p class="text-slate-400 leading-relaxed mb-4">
+                A B2B AI-powered solution that helps Online Travel Agencies (OTAs) detect
+                and eliminate fake reviews and fraudulent feedback. FYNX AI provides API
+                endpoints that integrate seamlessly into existing platforms to ensure review
+                authenticity and protect brand trust.
+              </p>
+              <p class="text-slate-500 text-sm mb-4">
+                Developed during the <span class="text-cyan-400 font-semibold">AI START</span>
+                program at <span class="text-cyan-400 font-semibold">Campus Founders</span>.
+                Ensuring trust and transparency in the online travel industry through intelligent
+                fraud detection.
+              </p>
+              <div class="flex flex-wrap gap-2 mt-4">
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">AI / ML</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">B2B SaaS</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">API</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Travel Tech</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Fraud Detection</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">Campus Founders</span>
+                <span class="px-2 py-1 bg-slate-700 text-xs text-slate-300 rounded">AI START</span>
+              </div>
+            </div>
+
+          </div>
+        </section>
 
         <!-- CONTACT -->
         <section id="contact" class="py-28 text-center px-6">
